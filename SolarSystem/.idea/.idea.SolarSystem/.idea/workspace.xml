@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c6176977-50ce-4bb7-b060-e7589cf03c19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_sun.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_sun.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sun.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlanetData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlanetData.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647372044593</updated>
       <workItem from="1647372066012" duration="22000" />
+      <workItem from="1647447872308" duration="2755000" />
     </task>
     <servers />
   </component>
