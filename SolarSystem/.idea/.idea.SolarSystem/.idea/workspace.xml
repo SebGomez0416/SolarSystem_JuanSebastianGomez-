@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6176977-50ce-4bb7-b060-e7589cf03c19" name="Changes" comment="" />
+    <list default="true" id="c6176977-50ce-4bb7-b060-e7589cf03c19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_sun.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_sun.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
