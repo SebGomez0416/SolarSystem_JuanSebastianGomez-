@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnSystem : MonoBehaviour
 {
-     [SerializeField] List<GameObject> planets;
+     public List<GameObject> planets;
      
     void Start()
     {

@@ -6,17 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c6176977-50ce-4bb7-b060-e7589cf03c19" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Jupiter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Jupiter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mars.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mars.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mercury.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mercury.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Saturn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Saturn.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Uranus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Uranus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Venus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Venus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/neptune.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/neptune.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlanetRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlanetRotation.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TranslatePlanet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TranslatePlanet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TranslatePlanet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TranslatePlanet.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,7 @@
       <updated>1647372044593</updated>
       <workItem from="1647372066012" duration="22000" />
       <workItem from="1647447872308" duration="3110000" />
-      <workItem from="1647890036824" duration="2314000" />
+      <workItem from="1647890036824" duration="7976000" />
     </task>
     <servers />
   </component>
