@@ -11,10 +11,6 @@ public class SpawnSystem : MonoBehaviour
         foreach ( GameObject planet in planets)
         {
             Instantiate(planet);
-
         }
     }
-
-    
-    
 }

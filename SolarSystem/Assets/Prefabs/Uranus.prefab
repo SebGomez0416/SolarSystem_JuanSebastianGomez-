@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3020327323818372786}
   - component: {fileID: 4364220437825258560}
   - component: {fileID: 7881276240867829212}
+  - component: {fileID: 473133774511992005}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Untagged
@@ -108,5 +109,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dec1d2c734c4c9da91dd05cd2b8936f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 0.4
   target: {fileID: 4470532223116927846, guid: 634f172ade8985aff89c75b31bdbda85, type: 3}
+--- !u!114 &473133774511992005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4001419262420431270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215ad73093f831b669a5786f2c08dd43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.9
