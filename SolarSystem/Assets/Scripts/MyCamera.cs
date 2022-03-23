@@ -1,65 +1,62 @@
-using System;
 using UnityEngine;
 
 public class MyCamera : MonoBehaviour
 {
   [SerializeField] private float transitionSpeed;
-  private Transform currentView;
-  private Transform mainView;
-  [SerializeField] private SpawnSystem planets;  
-
+  [SerializeField] private Vector3 offSet;
+  private  Vector3 currentView;
+  private Vector3 mainView;
+  [SerializeField] private SpawnSystem p;
+  private enum Planets {SUN,MERCURY,VENUS,EARTH,MARS,JUPITER,SATURN,URANUS,NEPTUNE}
+  private Planets planet;
   private void Start()
   {
-      mainView = transform;
-      currentView = transform;
-      Debug.Log(mainView.position.x);
+      planet = Planets.SUN;
+      mainView = transform.position;
+      currentView = transform.position;
   }
 
   private void Update()
   {
-      Debug.Log(mainView.position.x);
-
-      if (Input.GetKeyDown(KeyCode.Alpha1))
-      {   
-          currentView = mainView;
-         
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha2))
-      {
-          currentView = planets.planets[1].transform;
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha3))
-      {
-          currentView = planets.planets[2].transform;
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha4))
-      {
-          currentView = planets.planets[3].transform;
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha5))
-      {
-          currentView = planets.planets[4].transform;
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha6))
-      {
-          currentView = planets.planets[5].transform;
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha7))
-      {
-          currentView = planets.planets[6].transform;
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha8))
-      {
-          currentView = planets.planets[7].transform;
-      }
-      if (Input.GetKeyDown(KeyCode.Alpha9))
-      {
-          currentView = planets.planets[8].transform;
-      }
+      cameraInput();
   }
-
   private void LateUpdate()
   {
-      transform.position= Vector3.Lerp(transform.position, currentView.position , transitionSpeed*Time.deltaTime);
+    transform.position = currentView-offSet;
   }
+
+   private void cameraInput()
+  {
+      if (Input.GetKeyDown(KeyCode.Alpha2))
+          planet = Planets.MERCURY;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha3))
+          planet = Planets.VENUS;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha4))
+          planet = Planets.EARTH;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha5))
+          planet = Planets.MARS;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha6))
+          planet = Planets.JUPITER;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha7))
+          planet = Planets.SATURN;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha8))
+          planet = Planets.URANUS;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha9))
+          planet = Planets.NEPTUNE;
+      
+      if (Input.GetKeyDown(KeyCode.Alpha1))
+          planet = Planets.SUN;
+      
+      currentView = planet == Planets.SUN ? mainView : p.planets[(int)planet].transform.position;
+      
+  }
+  
+  
 }

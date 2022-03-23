@@ -1,16 +1,17 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnSystem : MonoBehaviour
 {
+     [SerializeField] private List<GameObject> Models;
      public List<GameObject> planets;
      
     void Start()
     {
-        foreach ( GameObject planet in planets)
+        foreach ( GameObject model in Models)
         {
-            Instantiate(planet);
+             planets.Add(Instantiate(model));
+
         }
     }
 }
