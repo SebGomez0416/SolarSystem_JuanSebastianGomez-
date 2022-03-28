@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6176977-50ce-4bb7-b060-e7589cf03c19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_uranus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_uranus.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/earth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/earth.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/mars.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/mars.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/mercury.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/mercury.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/saturn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/saturn.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/uranus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/uranus.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/venus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/venus.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/tierra/Materials/2k_earth_daymap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/tierra/Materials/2k_earth_daymap.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Jupiter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Jupiter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mars.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mars.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mercury.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mercury.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Saturn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Saturn.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sun.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Uranus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Uranus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Venus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Venus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/neptune.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/neptune.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MyCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/TranslatePlanet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/TranslatePlanet.cs" afterDir="false" />
-    </list>
+    <list default="true" id="c6176977-50ce-4bb7-b060-e7589cf03c19" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +34,9 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -93,9 +73,15 @@
       <workItem from="1647890036824" duration="8189000" />
       <workItem from="1648070178594" duration="7985000" />
       <workItem from="1648155411605" duration="10097000" />
+      <workItem from="1648479302652" duration="290000" />
+      <workItem from="1648479866324" duration="2404000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
