@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8720986404139379505}
   - component: {fileID: 9027369106163239801}
   - component: {fileID: 8045229431480557969}
+  - component: {fileID: -4115243975695576940}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Untagged
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dec1d2c734c4c9da91dd05cd2b8936f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 8
   target: {fileID: 4470532223116927846, guid: 634f172ade8985aff89c75b31bdbda85, type: 3}
 --- !u!114 &8045229431480557969
 MonoBehaviour:
@@ -124,7 +125,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 215ad73093f831b669a5786f2c08dd43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 10
+--- !u!114 &-4115243975695576940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121710903143492232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ddb6edab9f95995caf3642c574f4387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offSet: {x: 0, y: -30, z: 85}
 --- !u!1 &5164581091662698439
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +167,7 @@ Transform:
   m_GameObject: {fileID: 5164581091662698439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1389654326901628227}
   m_RootOrder: 0

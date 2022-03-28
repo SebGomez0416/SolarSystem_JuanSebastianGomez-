@@ -16,9 +16,10 @@ public class TranslatePlanet: MonoBehaviour
 
     void Update()
     {
-        transform.RotateAround(target.transform.position,transform.up,speed*direction);
+        transform.RotateAround(target.transform.position,transform.up,(speed*direction)*Time.deltaTime);
     }
 }
+
 
 
 

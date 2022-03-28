@@ -6,6 +6,6 @@ public class PlanetRotation : MonoBehaviour
     
     void Update()
     {
-        transform.Rotate(Vector3.down,speed);
+        transform.Rotate(Vector3.up,speed*Time.deltaTime);
     }
 }

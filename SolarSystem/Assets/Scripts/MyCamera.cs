@@ -22,7 +22,8 @@ public class MyCamera : MonoBehaviour
   }
   private void LateUpdate()
   {
-    transform.position = currentView-offSet;
+    offSet = p.planets[(int)planet].GetComponent<PlanetData>().offSet;
+    transform.position = currentView - offSet;
   }
 
    private void cameraInput()
@@ -55,7 +56,9 @@ public class MyCamera : MonoBehaviour
           planet = Planets.SUN;
       
       currentView = planet == Planets.SUN ? mainView : p.planets[(int)planet].transform.position;
+
       
+
   }
   
   

@@ -6,21 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c6176977-50ce-4bb7-b060-e7589cf03c19" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_jupiter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_jupiter.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_mars.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_mars.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_mercury.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_mercury.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_saturn_ring_alpha.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_saturn_ring_alpha.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_sun.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_sun.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_venus_surface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_venus_surface.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/2k_mercury.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/2k_mercury.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/tierra/2k_earth_daymap.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/tierra/2k_earth_daymap.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/tierra/2k_earth_nightmap.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/tierra/2k_earth_nightmap.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/tierra/2k_earth_normal_map.tif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/tierra/2k_earth_normal_map.tif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/2k_uranus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/2k_uranus.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/earth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/earth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/mars.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/mars.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/mercury.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/mercury.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/saturn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/saturn.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/uranus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/uranus.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/auras/venus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/auras/venus.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/tierra/Materials/2k_earth_daymap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/tierra/Materials/2k_earth_daymap.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Earth.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Jupiter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Jupiter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mars.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mars.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mercury.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mercury.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Saturn.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Saturn.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sun.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SolarSystem.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Uranus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Uranus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Venus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Venus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/neptune.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/neptune.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MyCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Planet/TranslatePlanet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Planet/TranslatePlanet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +92,7 @@
       <workItem from="1647447872308" duration="3110000" />
       <workItem from="1647890036824" duration="8189000" />
       <workItem from="1648070178594" duration="7985000" />
-      <workItem from="1648155411605" duration="1276000" />
+      <workItem from="1648155411605" duration="10097000" />
     </task>
     <servers />
   </component>
