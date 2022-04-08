@@ -288,7 +288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &963194226
 AudioListener:
   m_ObjectHideFlags: 0
@@ -369,6 +369,12 @@ MonoBehaviour:
   transitionSpeed: 1
   offSet: {x: 0, y: -10, z: 80}
   p: {fileID: 653712946}
+  shipCam: {fileID: 1403160675}
+--- !u!1 &1403160675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1403160675, guid: 69322b09a32e0e84b80c408b4827056d, type: 3}
+  m_PrefabInstance: {fileID: 2037503501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2037503501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -376,6 +382,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1403160675, guid: 69322b09a32e0e84b80c408b4827056d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403160676, guid: 69322b09a32e0e84b80c408b4827056d, type: 3}
+      propertyPath: spaceCam
+      value: 
+      objectReference: {fileID: 963194225}
     - target: {fileID: 1507687924087172, guid: 69322b09a32e0e84b80c408b4827056d, type: 3}
       propertyPath: m_Name
       value: SpaceShip

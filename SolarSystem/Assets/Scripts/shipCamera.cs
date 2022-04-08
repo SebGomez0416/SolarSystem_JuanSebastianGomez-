@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class shipCamera : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   [SerializeField] private GameObject spaceCam;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   private void Update()
+   {
+       if (Input.GetKeyDown(KeyCode.Alpha0))
+       {
+           gameObject.SetActive(false);
+           spaceCam.SetActive(true);
+       }
+          
+   }
+
+   
 }

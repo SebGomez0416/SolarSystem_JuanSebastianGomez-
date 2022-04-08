@@ -9,6 +9,7 @@ public class spaceCamera : MonoBehaviour
   [SerializeField] private SpawnSystem p;
   private enum Planets {SUN,MERCURY,VENUS,EARTH,MARS,JUPITER,SATURN,URANUS,NEPTUNE}
   private Planets planet;
+  [SerializeField] private GameObject shipCam;
   private void Start()
   {
       planet = Planets.SUN;
@@ -55,9 +56,13 @@ public class spaceCamera : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.Alpha1))
           planet = Planets.SUN;
       
-      currentView = planet == Planets.SUN ? mainView : p.planets[(int)planet].transform.position;
-
+      if (Input.GetKeyDown(KeyCode.Alpha0))
+      {
+          gameObject.SetActive(false);
+          shipCam.SetActive(true);
+      }
       
+      currentView = planet == Planets.SUN ? mainView : p.planets[(int)planet].transform.position;
 
   }
   
